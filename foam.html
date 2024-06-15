@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learning foam</title>
+    <link rel="stylesheet" href="formstyle.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+        </style>
+</head>
+<header class="boxtype1">
+    <a id="back" href="http://127.0.0.1:3000/Home.html"><-BACK</a>
+</header>
+<body>
+    <h1>Login Details :-</h1>
+    <form action="post" class = "loginform" >
+    
+<div>
+    <div class="labelbox">
+        <label for="Name">Name :</label>
+        <br>
+        <input class = "inputbox" type="text" name="Name" id="Name" placeholder = "type your name here...">
+    </div>
+    <div class="labelbox">
+        <label for="City: ">City :</label>
+        <br>
+        <input class = "inputbox"type="text" name="City" id="City" placeholder="city name">
+    </div>
+    <div class="labelbox">
+        <label for="Pincode :">Pincode :</label>
+        <br>
+        <input class = "inputbox" type="number" name="Pincode" id="Pincode :"placeholder="pincode" row="1" col="10">
+    </div>
+</div >  
+    <div class="labelbox">
+        <label for="gender">Gender :</label>
+        <div class = "inputbox2"> 
+        <input type="radio" name="gender" id="male">
+        <label for="male"> Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="non">
+        <label for="non">Others</label>
+        </div>
+    </div>
+    <div class="labelbox">
+        <label for="username"> Suggestions Box : </label>
+        <br>
+        <input class = "inputbox" type="text" id="username"  name="username" placeholder ="Name of animes...">
+    </div>
+    
+    <div class="labelbox">
+        <label for="comment">COMMENT :</label>
+        <br>
+        <textarea class="inputbox"  name ="comment" rows = "3" col="200" placeholder="Please give a feedback here..." ></textarea>
+    </div>
+    <div class="labelbox">
+        <label for="Favourite :">Favourite :</label>
+        <select Favourite="" id="Favourite" >
+            <option value="Manga">Manga</option>
+            <option value="Anime">Anime</option>
+            <option value="Both">Both</option>  
+        </select>
+    </div>
+    <br>
+    <div  style="margin:3% 18%">
+        <input style="margin-left:8vw" type="checkbox" name = "Submit" id="Submit" value="Yes">
+        <label class="boxtype2" id ="Submit" for="Submit">Submit Response</label>
+    </div>
+    </form>  
+    <footer class="foot" >
+        <b>FILL USER DETAILS TO LOGIN !!</b>
+    </footer >
+    <script src="code.js"></script>         
+</body>
+</html>

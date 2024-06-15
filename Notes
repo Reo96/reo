@@ -1,0 +1,8 @@
+FORM 
+type = text for text ans
+{
+    type = radio for options 
+name = ek hi dlna h jisko allocate krre h 
+id = jo select karna h us vale button se 
+value = same as id if wanna have complete checkbox
+}

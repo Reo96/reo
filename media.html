@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Handles</title>
+    <style>
+        body{
+            color:white;
+            background-color: rgb(97, 192, 255);
+        }
+        a{
+            color: aqua;
+            text-decoration: none;
+            font-size: 90%;
+        }
+        #back{
+            color:white;
+            text-decoration: none;
+            background-color: rgb(14, 123, 166);
+            border-radius: 8vmin;
+            font-size: 4vmin;
+            padding: 0.5vmin;
+            margin-left: 1.5vw;
+        }
+        .nav{
+            display: flex;
+            justify-content:space-around;
+            background-color: rgb(14, 123, 166);
+            padding: 1vw;
+        }
+        .list{
+            box-sizing: border-box;
+            font-size: 100%;
+            align-content: center;
+            justify-content: center;
+            text-align: center;
+            height:4vh;
+            width:8vw;
+            list-style: none;
+            border :2px solid white;
+            border-radius: 10px;   
+        }
+        
+        ::selection{
+            color:black;
+        }
+        .list{
+        animation : rot 5s cubic-bezier(0.17, 0.33, 0.2, 0.75) 1s 1 forward;
+        animation-name: ani;
+        animation-duration: 4s;
+        animation-delay: 1s;
+        animation-timing-function:cubic-bezier(0.17, 0.33, 0.2, 0.75);
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        }
+        @keyframes ani {
+            from{ background-color: rgb(14, 123, 166)}
+            to{ 
+                width:10vw;
+                text-align: center;
+                transform:translateY(300px) rotate(360deg) scale(1.7);
+                color: black;
+                background-color: black;
+            }
+        }
+
+        
+        p{
+            position:fixed;
+            margin-left: 40vw;
+            margin-top: 569px;
+            width :300px;
+            color: black;
+            background-color: black;
+        }
+        div{
+            position:absolute;  
+            display:flex;
+            flex-direction: column;
+            text-align: center;   
+            justify-content: center;      
+            height:12vh;
+            width :12vh;
+            border-radius: 6vh;
+            font-weight: 600px;
+            background-color: blueviolet;
+            bottom:0px;
+            animation: ballx 5s linear infinite, bally 0.5s ease-out infinite alternate;
+        }
+        img{
+            height:17vh;
+            width:20vw;    
+            opacity:0;        
+            animation: logo 1s ease-in-out 4s 1 forwards;
+        }
+        ul{
+            display:flex;
+            gap:4vw;
+            margin-top:10vh;
+        }
+        li{
+            list-style: none;
+        }
+        h2{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-transform: uppercase;
+            margin-left:25vw;
+            position: absolute;
+            opacity:0;
+            animation: logo 1s ease-in-out 2s 1 forwards;
+        }
+        @keyframes bally {
+            from{
+            }        
+            to{
+                bottom:25%;
+            }    
+        }
+        @keyframes ballx {
+            from{        
+            }
+            to{
+                transform: translateX(90vw);
+            }
+        }
+        @keyframes logo {
+            from{
+            }
+            to{
+                opacity:1;
+            }
+        }
+        @keyframes titlebar {
+            from{}
+            to{
+                transform :translateY(-10vh);
+            }
+            
+        }
+        b{
+            max-width: 95%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <header class="boxtype1">
+            <a id="back" href="http://127.0.0.1:3000/Home.html"><-BACK</a>
+        </header>
+        <nav>
+            <h2>You can contact us through our channels..!!!</h2>
+            <ul class="nav" class="tr" >
+                <li class="list" class="move"><a href="https://www.instagram.com/mudgil_boy_96/">Instagram</a></li>
+                <li class="list" class="move"><a href="https://www.facebook.com/rachit.mudgal.56">Facebook</a></li>
+                <li class="list" class="move"><a href="https://chat.whatsapp.com/DMDCBMnwla033bS5VpozSy">Whatsapp Group</a></li>
+                <li class="list" class="move"><a href="https://t.me/+WUUcQ6b_AbAyNDk1">Telegram</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+    <ul> 
+        <li><img src="https://logo.com/image-cdn/images/kts928pd/production/a1bd4454868f811d7efe9e3986a8624c57703ef5-1600x900.png?w=3840&amp;q=72" jsaction="VQAsE" class="sFlh5c pT0Scc iPVvYb"  aria-pressed="false" jsname="kn3ccd" aria-hidden="false"></li>
+        <li><img src="https://1000logos.net/wp-content/uploads/2017/02/Facebook-Logosu.png" jsaction="VQAsE" class="sFlh5c pT0Scc iPVvYb" alt="Facebook Logo and symbol, meaning, history, PNG, brand" jsname="kn3ccd" aria-hidden="false"></li>
+        <li><img src="https://1000logos.net/wp-content/uploads/2021/04/WhatsApp-logo.png" jsaction="VQAsE" class="sFlh5c pT0Scc iPVvYb" role="button" tabindex="0" aria-label="WhatsApp Logo and symbol, meaning, history, PNG, brand Search inside image" aria-pressed="false" jsname="kn3ccd" aria-hidden="false"></li>
+        <li style="margin-left : 5vw"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/2048px-Telegram_2019_Logo.svg.png"
+            style="width : 13vw " jsaction="VQAsE" class="sFlh5c pT0Scc iPVvYb" jsname="kn3ccd" aria-hidden="false"></li>
+    </ul>
+    <div><b>FOLLOW !!</b></div>
+    <p>_______________________________</p>
+    
+<script src="intractive.js"></script>
+</body>
+</html>

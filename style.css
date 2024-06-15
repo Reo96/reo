@@ -1,0 +1,169 @@
+body {
+    color :white ;
+    background-color: rgb(71, 7, 72);
+    font-size: x-large;
+    a{
+        color : rgb(254, 155, 254);
+    }
+    *{
+        margin-left: 20px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    header{
+        background-color: rgb(125, 41, 131);
+        width:100%;
+        position:sticky;
+        left:1px;
+        top:1px;
+    }
+    .nav {
+        /* padding :2vh; */
+
+        height:7vh; 
+        list-style: none;
+        font-size:90%;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        box-sizing: border-box;
+    }
+    .nav a{
+        padding:0.3vh;
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+        /* font-size: 4.5vw; */
+        /* margin:13vh; */
+        border:2px solid whitesmoke;
+        background-color: rgb(255, 95, 80);
+        border-radius:1vh;
+        text-align: center;
+        
+    }
+    .boxtype2{
+        
+        height:10vh;
+        width:10vh;
+        color:white;
+        border:3px solid whitesmoke;
+        background-color: rgb(31, 251, 49);
+        border-radius:5vh;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    #fixed a{
+
+        color:white;
+        margin:auto;
+        text-decoration: none;
+    }
+    #fixed{
+        /* margin:auto; */
+        font-size:2.5vh;
+        /* text-align:left; */
+        list-style: none;
+        position:fixed;
+        bottom:2vh; 
+        right:2vh; 
+    }
+    .nav a:hover{
+        background-color:rgb(61, 255, 47)
+    }
+    .img:hover{
+        margin-left:10vw;
+        scale:1.2;
+        transform:rotate(5deg) skew(10deg);
+    }
+    #back{
+        background-color: rgb(175, 41, 155);
+        font-size: 25px;
+    }
+    .inputbox{
+        font-size: 18px;
+        margin-top:5px;
+        margin-left: 10px;
+        text-indent: 0cap;
+        color :rgb(103, 102, 102);
+        border-style: groove;
+        border-color: black;
+        border-radius: 7px;
+    }
+    .inputbox:hover{
+        background-color: rgb(226, 207, 207);
+    }
+    .middle{
+        margin-left: 550px;
+    }
+    .inputbox2{
+        margin-top: 2px;;
+        margin-left: 4px;
+        color:rgb(74, 66, 66);
+        background-color: aliceblue;
+        border:2px solid white;
+        font-weight: 400;
+        border-radius: 7px;
+        max-width: 310px;
+    }
+    .labelbox{
+        margin-top: 10px;
+    }
+    #genderbox{
+        color : burlywood;
+    }
+    #subscribe{
+        color : white;
+        background-color: green;
+    }
+    /* .userdetails{
+        background-color: blue;
+    } */
+    /* div{
+        background-color: rgb(255, 0, 221);
+    } */
+    h2{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    a{
+        text-transform: uppercase;
+    }
+    .foot{
+        margin : 10vh 25vw;
+        font-size:3vw;
+    }
+    /* .color{
+        background-color: grey;
+    } */
+    .color:active{
+        color:rgb(217, 26, 26)
+    }
+    /* when we click something with this cursor */
+    /* a:active{
+        color:rgb(248, 88, 20);
+        background-color:blue;
+    } */
+    /* a:link{
+        color:blue;
+    } */
+
+    /* when cursor is above some text */
+    /* .color:hover{
+        background-color:yellow;
+    } */
+    /* a:visited{
+        color :green;
+    } */
+    .box{
+        color:blue;
+        padding:1px;
+        background-color: white;
+        margin :10px;
+        border: 2px solid rgb(0, 0, 0);
+        height:60px;
+        box-sizing: border-box;
+    }
+    
+}
+
